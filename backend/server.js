@@ -16,18 +16,18 @@ const DB   = path.join(__dirname, '../data/registrations.json');
 
 /* ── base event data (slots = total capacity) ── */
 const BASE_EVENTS = [
-  { id:'e1',  sport:'Cricket',      name:'Inter-Dept Cricket Championship', date:'Feb 8–10, 2026',  venue:'Main Ground',         fee:350, slots:120, color:'#1B8A4C' },
-  { id:'e2',  sport:'Football',     name:'Campus Football League',          date:'Feb 15–16, 2026', venue:'Football Field A',    fee:300, slots:80,  color:'#D63030' },
-  { id:'e3',  sport:'Basketball',   name:'3×3 Basketball Showdown',         date:'Feb 22, 2026',    venue:'Indoor Court',        fee:250, slots:60,  color:'#E87722' },
-  { id:'e4',  sport:'Badminton',    name:'Badminton Singles & Doubles',     date:'Mar 1–2, 2026',   venue:'Sports Hall B',       fee:200, slots:100, color:'#7C3AED' },
-  { id:'e5',  sport:'Table Tennis', name:'TT Open Tournament',              date:'Mar 7, 2026',     venue:'Recreation Centre',   fee:150, slots:64,  color:'#0EA5E9' },
-  { id:'e6',  sport:'Athletics',    name:'Annual Track & Field Meet',       date:'Mar 14–15, 2026', venue:'Athletics Track',     fee:200, slots:200, color:'#F5C518' },
-  { id:'e7',  sport:'Volleyball',   name:'Volleyball Championship',         date:'Mar 20, 2026',    venue:'Volleyball Court',    fee:280, slots:80,  color:'#10B981' },
-  { id:'e8',  sport:'Chess',        name:'Rapid Chess Open',                date:'Mar 28, 2026',    venue:'Academic Block 3',    fee:100, slots:128, color:'#6366F1' },
-  { id:'e9',  sport:'Swimming',     name:'Inter-College Swim Meet',         date:'Apr 5, 2026',     venue:'Aquatic Centre',      fee:300, slots:50,  color:'#0284C7' },
-  { id:'e10', sport:'Kabaddi',      name:'Kabaddi League',                  date:'Apr 12, 2026',    venue:'Multi-Purpose Court', fee:200, slots:90,  color:'#B45309' },
-  { id:'e11', sport:'Carrom',       name:'Carrom Doubles Championship',     date:'Apr 18, 2026',    venue:'Common Room',         fee:100, slots:80,  color:'#BE185D' },
-  { id:'e12', sport:'Cycling',      name:'Campus Cycling Race',             date:'Apr 25, 2026',    venue:'College Circuit',     fee:150, slots:60,  color:'#059669' },
+  { id:'e1',  sport:'Cricket',      name:'Inter-Dept Cricket Championship', date:'Feb 8–10, 2026',  venue:'Main Ground',         fee:350, slots:25, color:'#1B8A4C' },
+  { id:'e2',  sport:'Football',     name:'Campus Football League',          date:'Feb 15–16, 2026', venue:'Football Field A',    fee:300, slots:30,  color:'#D63030' },
+  { id:'e3',  sport:'Basketball',   name:'3×3 Basketball Showdown',         date:'Feb 22, 2026',    venue:'Indoor Court',        fee:250, slots:40,  color:'#E87722' },
+  { id:'e4',  sport:'Badminton',    name:'Badminton Singles & Doubles',     date:'Mar 1–2, 2026',   venue:'Sports Hall B',       fee:200, slots:23, color:'#7C3AED' },
+  { id:'e5',  sport:'Table Tennis', name:'TT Open Tournament',              date:'Mar 7, 2026',     venue:'Recreation Centre',   fee:150, slots:34,  color:'#0EA5E9' },
+  { id:'e6',  sport:'Athletics',    name:'Annual Track & Field Meet',       date:'Mar 14–15, 2026', venue:'Athletics Track',     fee:200, slots:20, color:'#F5C518' },
+  { id:'e7',  sport:'Volleyball',   name:'Volleyball Championship',         date:'Mar 20, 2026',    venue:'Volleyball Court',    fee:280, slots:34,  color:'#10B981' },
+  { id:'e8',  sport:'Chess',        name:'Rapid Chess Open',                date:'Mar 28, 2026',    venue:'Academic Block 3',    fee:100, slots:26, color:'#6366F1' },
+  { id:'e9',  sport:'Swimming',     name:'Inter-College Swim Meet',         date:'Apr 5, 2026',     venue:'Aquatic Centre',      fee:300, slots:24,  color:'#0284C7' },
+  { id:'e10', sport:'Kabaddi',      name:'Kabaddi League',                  date:'Apr 12, 2026',    venue:'Multi-Purpose Court', fee:200, slots:50,  color:'#B45309' },
+  { id:'e11', sport:'Carrom',       name:'Carrom Doubles Championship',     date:'Apr 18, 2026',    venue:'Common Room',         fee:100, slots:34,  color:'#BE185D' },
+  { id:'e12', sport:'Cycling',      name:'Campus Cycling Race',             date:'Apr 25, 2026',    venue:'College Circuit',     fee:150, slots:25,  color:'#059669' },
 ];
 
 /* ── helpers ── */
